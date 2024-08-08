@@ -1,0 +1,10 @@
+#root{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+body, html{
+  overflow-x: hidden;
+}

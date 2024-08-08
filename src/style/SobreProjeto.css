@@ -1,0 +1,120 @@
+body{
+    overflow-x: hidden;
+}
+
+.Sobre-projeto{
+    max-width: 100%;
+}
+
+.Sobre-projeto-quem-somos{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #023E8A;
+}
+
+.Sobre-projeto-quem-somos-texto{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;   
+}
+
+.Sobre-projeto-quem-somos-texto h1{
+    width: auto;
+}
+
+.Sobre-projeto-quem-somos-texto h2{
+    width: 100%;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.Sobre-projeto-quem-somos img{
+    width: 80%;
+    margin-bottom: 4vh;
+    border-radius: 8px;
+    height: auto;
+}
+
+.Sobre-projeto-texto{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Sobre-projeto-sobre{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Sobre-projeto-sobre-texto{
+    width: 80%;
+}
+
+.Sobre-projeto-sobre-texto h1{
+    color: #023E8A;
+}
+
+.Sobre-projeto-sobre-texto h2{
+    margin: 0;
+    padding-top: 2vh;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.Sobre-projeto-sobre-imagens{
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}   
+
+.Sobre-projeto-sobre-imagens img{
+    width: 50%;
+    padding: 3vh 0;
+}
+
+@media(min-width: 992px){
+    .Sobre-projeto-quem-somos{
+        flex-direction: row;
+    }
+
+    .Sobre-projeto-quem-somos img{
+        width: 35%;
+    }
+
+    .Sobre-projeto-quem-somos-texto{
+        padding: 0 3vh;
+    }
+
+    .Sobre-projeto-quem-somos img{
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .Sobre-projeto-sobre-texto{
+        width: 90%;
+    }
+
+    .Sobre-projeto-sobre-imagens{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .Sobre-projeto-sobre-imagens img{
+        width: 20%; 
+    }
+}

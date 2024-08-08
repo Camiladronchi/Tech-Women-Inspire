@@ -1,0 +1,25 @@
+.home-foto img{
+    width: 100%;
+    height: auto;
+    background: rgb(3,4,94);
+    background: linear-gradient(0deg, rgba(3,4,94,1) 0%, rgba(0,150,199,1) 88%);
+}
+
+.home-frase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    color: #03045E;
+}
+
+.home-frase h1{
+    padding: 8vh 0;
+}
+
+@media(min-width: 992px){
+
+    .home-frase{
+        font-size: 16px;
+    }
+}
