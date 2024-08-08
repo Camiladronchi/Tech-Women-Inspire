@@ -1,6 +1,7 @@
 import React from 'react';
 import '../style/Oportunidades.css'
 import { Navbar } from '../components/Navbar/Navbar';
+import { Footer } from '../components/Footer/Footer';
 
 export function Oportunidades(){
     return(
@@ -13,6 +14,7 @@ export function Oportunidades(){
                 <select></select>
 
             </div>
+            <Footer/>
         </div>
         
     )

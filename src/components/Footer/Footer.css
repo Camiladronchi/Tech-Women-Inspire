@@ -1,1 +1,44 @@
+.Footer{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    background-color: #03045E;
+}
 
+.Footer h3{
+    margin: 1vh;
+    font-size: small;
+    font-weight: 300;
+    color: white;
+}
+
+.Footer i{
+    margin: 0 1vh 1vh 0; 
+    color: white;
+    cursor: pointer;
+}
+
+.Footer-icone{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+}
+
+@media(min-width: 992px){
+
+    .Footer h3{
+        margin: 2vh;
+        font-size: large; 
+    }
+
+    .Footer i{
+        margin: 0 2vh 2vh 0; 
+        color: white; 
+    }
+
+    .Footer{
+        font-size: 1.8em;
+    }
+}
