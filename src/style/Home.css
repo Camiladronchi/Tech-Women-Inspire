@@ -9,8 +9,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 11px;
     color: #03045E;
+}
+
+.home-frase h1{
+    font-size: large;
 }
 
 .home-frase h1{
@@ -19,7 +22,7 @@
 
 @media(min-width: 992px){
 
-    .home-frase{
-        font-size: 16px;
+    .home-frase h1{
+        font-size: x-large;
     }
 }
