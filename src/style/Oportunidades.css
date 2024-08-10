@@ -2,27 +2,44 @@
     width: 100%;
 }
 
-.Oportunidades-barra-pesquisa{
+.Oportunidades-barra-pesquisa-fundo{
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
     background: rgb(3,4,94);
     background: linear-gradient(90deg, rgba(3,4,94,1) 20%, rgba(0,150,199,1) 80%);
 }
 
-.Oportunidades-barra-pesquisa select{
-    margin: 3vh 0;
-    padding: 0.5vh 2vh;
-    font-size: 14px;
-    font-weight: 600;
-    border: none;
-    border-radius: 8px;
-    color: #023E8A;
+.Oportunidades-fundo-cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.Oportunidades-cards{
+    width: 80%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
 }
 
 @media(min-width: 992px){
 
+    .Oportunidades-barra-pesquisa{
+        width: 80%;
+        display: flex;
+        justify-content: end;
+    }
+
+    .Oportunidades-cards{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
