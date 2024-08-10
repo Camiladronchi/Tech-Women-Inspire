@@ -1,6 +1,7 @@
 import React from 'react';
 import '../style/SobreProjeto.css'
 import { Navbar } from '../components/Navbar/Navbar';
+import { Footer } from '../components/Footer/Footer';
 import icmc from '../images/icmc.png'
 import logo from '../images/logo.png'
 import wit from '../images/wit.png'
@@ -36,7 +37,7 @@ export function SobreProjeto(){
                     <img src={wit} alt="Logo WIT"/>
                 </div>
             </div>
-            
+            <Footer/>
         </div>     
     )
 }

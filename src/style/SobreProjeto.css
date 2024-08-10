@@ -27,16 +27,18 @@ body{
 
 .Sobre-projeto-quem-somos-texto h1{
     width: auto;
+    font-size: larger;
 }
 
 .Sobre-projeto-quem-somos-texto h2{
     width: 100%;
     font-weight: 400;
+    font-size: medium;
     text-align: justify;
 }
 
 .Sobre-projeto-quem-somos img{
-    width: 80%;
+    width: 50%;
     margin-bottom: 4vh;
     border-radius: 8px;
     height: auto;
@@ -63,12 +65,14 @@ body{
 
 .Sobre-projeto-sobre-texto h1{
     color: #023E8A;
+    font-size: larger;
 }
 
 .Sobre-projeto-sobre-texto h2{
     margin: 0;
     padding-top: 2vh;
     font-weight: 400;
+    font-size: medium;
     text-align: justify;
 }
 
@@ -86,16 +90,38 @@ body{
 }
 
 @media(min-width: 992px){
+
+    .Sobre-projeto-quem-somos h1{
+        padding-bottom: 2vh;
+        padding-top: 5vh;
+        margin: 0;
+        font-size: x-large;
+    }
+
+    .Sobre-projeto-sobre h1{
+        padding-bottom: 2vh;
+        padding-top: 5vh;
+        margin: 0;
+        font-size: x-large;
+    }   
+
+    .Sobre-projeto h2{
+        font-size: larger;
+    }
+
     .Sobre-projeto-quem-somos{
         flex-direction: row;
     }
 
     .Sobre-projeto-quem-somos img{
-        width: 35%;
+        width: 30%;
     }
 
     .Sobre-projeto-quem-somos-texto{
-        padding: 0 3vh;
+        padding: 0 11vh;
+        display: flex;
+        justify-content: start;
+        align-items: start;
     }
 
     .Sobre-projeto-quem-somos img{
